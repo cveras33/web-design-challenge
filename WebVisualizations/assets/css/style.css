@@ -1,5 +1,82 @@
 /* Your stylesheet */
 
+body{
+    background-color: #ededed;
+}
+
+.navbar{
+    max-height: 50px;
+    background-color: white;
+}
+
 .navclass .navbar-brand{
+    color: white; 
+    padding: inherit;
     background-color: #0BADA6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+img{
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.box{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px;
+    color: black;
+    background-color: white;
+}
+
+p{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title{
+    color: #0BADA6; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 25px;
+}
+
+.summary{
+    width: 50% !important; 
+    height: 50% !important;
+}
+
+.active .dropdown-menu .dropdown-page:active a:hover{
+    background-color: #e7e7e7 !important;
+}
+
+.active, .side:hover{
+    border-color:#0BADA6;
+    border-style: solid; 
+    
+}
+
+.dropdown-page{
+    color: grey;
+}
+
+.nav-webpage{
+    color: grey;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+    vertical-align: text-top;
+    text-decoration: none;
+}
+
+.dropdown .dropdown-menu .dropdown-page:active .dropdown .dropdown-menu .dropdown-page:hover{
+    background-color: #e7e7e7;
+}
+
+.active, .panel:hover{
+    border-color:#0BADA6;
+    border-style: solid; 
 }
