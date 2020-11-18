@@ -14,11 +14,35 @@
     integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
 
-  <!-- Our own CSS stylesheet -->
+  <!-- CSS stylesheet -->
+  <link rel = "stylesheet" type = "text/css" href = "assets/css/style.css">
 
 </head>
 
 <body>
+  <!-- Nav Section -->
+  <div class = "navclass">
+    <nav class = "navbar navbar-expand-md navbar-light">
+      <a class = "navbar-brand" href = "index.html"> Latitude </a>
+      <button class = "navbar-toggler border border-white" type = "button" data-toggle = "collapse" data-target = "#navbar-NavbarDropdown"
+      aria-controls = "navbar-NavbarDropdown" aria-expanded = "false" aria-label = "Toggle navclass">
+      <span class = "navbar-toggle-button"></span>
+      </button>
+      <div class = "collapse navbar-collapse" id = "navbar-NavbarDropdown">
+        <ul class = "navbar-list ml-auto">
+          <li class = "nav-page dropdown">
+            <a class = "nav-webpage dropdown-toggle" href = "#" id = "navbar-DropdownLink" data-toggle = "dropdown"
+            aria-haspopup = "true" aria-expanded = "false"> Plots </a>
+            <div class = "dropdown-menu" aria-labelledby = "navbar-DropdownLink">
+              <a class = "dropdown-page" href = "lat_vs_cloudiness.html"> Cloudiness </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+
 
 
   <!-- Javascript -->

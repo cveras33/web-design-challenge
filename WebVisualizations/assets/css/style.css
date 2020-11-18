@@ -1,1 +1,5 @@
 /* Your stylesheet */
+
+.navclass .navbar-brand{
+    background-color: #0BADA6;
+}
