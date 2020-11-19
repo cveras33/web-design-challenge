@@ -46,6 +46,14 @@ li{
     background-color: white;
 }
 
+.row{
+    padding-bottom: 30px;
+}
+
+.col-lg-6{
+    padding-bottom: 20px;
+}
+
 .dropdown-page{
     color: grey;
 }
@@ -91,4 +99,14 @@ li{
 .active, .panel:hover{
     border-color:#0BADA6;
     border-style: solid; 
+}
+
+@media(max-width: 1000px){
+    
+    .navbar, .bg-light, .navbar-light, .navbar-expand-lg {
+        background-color:#0BADA6  !important;
+        color: #0BADA6;
+        margin-bottom: 20px;
+        padding-left: 30px;
+    }    
 }
