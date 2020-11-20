@@ -16,6 +16,8 @@ p{
 
 table{
     border-top-color: white !important; 
+    height: 100%;
+    width: 100%;
 }
 
 tr:nth-child(even){
@@ -101,12 +103,38 @@ li{
     border-style: solid; 
 }
 
-@media(max-width: 1000px){
+/* Media Queries */
+@media(max-width: 992px){
     
-    .navbar, .bg-light, .navbar-light, .navbar-expand-lg {
-        background-color:#0BADA6  !important;
-        color: #0BADA6;
-        margin-bottom: 20px;
-        padding-left: 30px;
-    }    
+    .navbar-expand-lg{
+    background-color: #0BADA6 !important;
+    }
+    
+    .navbar{
+        max-height: none; 
+        padding: inherit;
+    }
+    
+    .navbar div{
+        margin: inherit; 
+        background-color: white;  
+    }
+    
+    .navbar-brand{
+        padding: 10px !important; 
+    }
+    
+    button{
+        margin-right: 30px; 
+    }
+    
+    button:focus{
+        outline: 1px dotted;
+        outline: 5px auto -webkit-focusring-color;
+    }
+    
+    img{
+        display: inline;
+        
+    }
 }
