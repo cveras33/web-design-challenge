@@ -31,7 +31,7 @@ At the top of every page, there is a navigation bar that:
 https://cveras33.github.io/web-design-challenge/
 
 #### Status #### 
-Project is *in progress*. 
+Project is *complete*. 
 
 #### Contact ####
 Chloe Veras  
