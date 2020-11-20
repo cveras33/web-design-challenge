@@ -11,7 +11,7 @@ This website contains 7 total pages, including:
 * A [Landing Page](https://cveras33.github.io/web-design-challenge/) containing: 
   * An explanation of the project 
   * Links to each visualization page. There is a side panel in which users can click on any of the visualization previews to be taken to that visualization's page. 
-* Four visualization pages, each with 
+* Four visualization pages, each with:
   * The title of the visualization
   * The plot itself 
   * A paragraph describing the plot and its significance. 
