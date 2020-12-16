@@ -8,7 +8,7 @@ A [visualization dashboard website](https://cveras33.github.io/web-design-challe
 
 This website contains 7 total pages, including: 
 
-* A [Landing Page](https://cveras33.github.io/web-design-challenge/) containing: 
+* A [Landing Page](https://cveras33.github.io/web-visualization-dashboard/) containing: 
   * An explanation of the project 
   * Links to each visualization page. There is a side panel in which users can click on any of the visualization previews to be taken to that visualization's page. 
 * Four visualization pages, each with:
@@ -28,7 +28,7 @@ At the top of every page, there is a navigation bar that:
 * Provides two more text links on the right: "Comparisons," which links to the comparisons page, and "Data," which links to the data page
 
 ### Website Link ###
-https://cveras33.github.io/web-design-challenge/
+https://cveras33.github.io/web-visualization-dashboard/
 
 #### Status #### 
 Project is *complete*. 
